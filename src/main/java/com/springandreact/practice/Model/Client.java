@@ -1,4 +1,4 @@
-package Model;
+package com.springandreact.practice.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,6 +20,9 @@ public class Client {
         this.id = id;
         this.name = name;
         this.email = email;
+    }
+
+    public Client() {
     }
 
     public Long getId() {

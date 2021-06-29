@@ -1,7 +1,7 @@
-package Controller;
+package com.springandreact.practice.Controller;
 
-import Model.Client;
-import Repository.ClientRepository;
+import com.springandreact.practice.Model.Client;
+import com.springandreact.practice.Repository.ClientRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
